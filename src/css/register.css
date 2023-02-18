@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin-bottom: 12px;
+    /* background-color: rgb(220, 223, 228); */
+    
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: #00ddff;
+    outline-color: aqua;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height:2em;
+    font-weight: bold;
+}
+
+
+/* Debugging */
+
+ /* .form-container,.flex-container,.container{
+    border: solid;
+} */
+
+.form-container{
+    
+    border-radius: 5px;
+} 
+
