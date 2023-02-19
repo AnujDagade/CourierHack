@@ -40,8 +40,20 @@ for ($i = 0; $i < 12; $i++) {
     $string =  fgets($file);
     $string_array = explode(",", $string);
 
+    genrateCard($string_array);
+
+    
+}
+
+?>
 
 
+
+
+<?php
+
+function genrateCard($string_array)
+{
     echo ("
         
         <div class='card'>
@@ -57,17 +69,8 @@ for ($i = 0; $i < 12; $i++) {
 
         </form>");
 }
-
-echo ('  </div>
-    </div>');
 ?>
 
-
-<?php
-// $id = $_POST['id'];
-// echo("$id<br>");
-
-?>
 
 <div class="nav-index">
     

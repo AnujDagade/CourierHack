@@ -3,7 +3,7 @@ namespace Handlers;
 
 
 
-$fh = fopen("/home/drcool/Programming/Projects/HackPartner/src/database/userinfo.txt", 'r+');
+$fh = fopen("/workspace/CourierHack/src/database/userinfo.txt", 'r+');
 
 if (!$fh) die("File not found");
 

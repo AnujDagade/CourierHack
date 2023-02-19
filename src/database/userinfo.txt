@@ -1,6 +1,5 @@
-yrtr,dagadeanuj@gmail.com,Gotham,nothing,ry
-ing,shit
-dagadeanuj,dagadeanuj@gmail.com,Gotham,Web Dev,PHP React
+dagadeanuj,dagadeanuj@gmail.com,Pune,Web Dev,PHP React
+uj,dagadeanuj@gmail.com,Gotham,Web Dev,PHP React
 dagadeanuj,dagadeanuj@gmail.com,Gotham,Web Dev,PHP React
 drcool,dagadeanuj@gmail.com,Gotham,Web Dev,PHP React
 First_Test,sdsh@j.com,Gotham,Web Dev,PHP React
