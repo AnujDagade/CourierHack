@@ -3,7 +3,7 @@ namespace Handlers;
 
 
 
-$fh = fopen("/workspace/CourierHack/src/database/userinfo.txt", 'r+');
+$fh = fopen("/workspace/CourierHack/src/database/userinfo.txt", 'a');
 
 if (!$fh) die("File not found");
 
@@ -18,6 +18,7 @@ $tech = $_POST['tech'];
 
 if(fputs($fh,$name.",".$email.",".$location.",".$lookingFor.",".$tech."\n"))
 {
+   fclose($fh);
    header("Location: /php/catolog.php");
 }
 

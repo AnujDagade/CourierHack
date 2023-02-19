@@ -1,0 +1,1 @@
+## File corruption while using r+ in register.php

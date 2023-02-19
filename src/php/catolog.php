@@ -2,15 +2,36 @@
 <html lang="en">
 
 <?php
+
+$file_lines = fopen("/workspace/CourierHack/src/database/userinfo.txt", 'r');
+if (!$file_lines) die("File not found");
+$wholeLines=0;
+
+while(!feof($file_lines)){
+    fgets($file_lines);
+    $wholeLines++;
+}
+
+
+$total_pages = ($wholeLines-2)/12;
+//echo "TotalPages: $total_pages , Lines: $wholeLines";
+
 if (!isset($_COOKIE['PageNo'])) {
     static $pageNo = 1;
     setcookie("PageNo", $pageNo);
-} else {
-    $pageNo = $_COOKIE['PageNo'] + 0;
+}
+else {
+    $pageNo = $_COOKIE['PageNo'] + 1;
     setcookie("PageNo", $pageNo);
 }
 
-$ROOT = dirname(__FILE__);
+if(($pageNo-1) > $total_pages)
+{
+    $pageNo = 1;
+    setcookie("PageNo", $pageNo);
+}
+
+
 
 ?>
 
@@ -40,11 +61,17 @@ for ($i = 0; $i < 12; $i++) {
     $string =  fgets($file);
     $string_array = explode(",", $string);
 
-    genrateCard($string_array);
-
+   
+    
+    if($string_array[0] != "")
+    {
+        genrateCard($string_array);
+    }
+   
+    
     
 }
-
+fclose($file);
 ?>
 
 
