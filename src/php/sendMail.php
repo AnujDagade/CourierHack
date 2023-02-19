@@ -1,9 +1,14 @@
-<?php
 
+
+
+<?php
 $email_id = $_POST['id'];
+$body = $_POST['msg'];
+$sender_email = $_POST['email'];
 
 // Dependencies to install:
 // $ composer require guzzlehttp/guzzle
+
 
 require_once('/workspace/CourierHack/vendor/autoload.php');
 
@@ -12,7 +17,7 @@ $client = new \GuzzleHttp\Client();
 //Remember to study "' . $email_id . '"
 
 $response = $client->request('POST', 'https://api.courier.com/send', [
-  'body' => '{"message":{"to":{"email":"' . $email_id . '","data":""},"content":{"title":"demo","body":"<b>Last test</b>"}}}',
+  'body' => '{"message":{"to":{"email":"' . $email_id . '","data":""},"content":{"title":"Team up requested","body":"'.$body.'Sender email'.$sender_email.'"}}}',
   'headers' => [
     'Accept' => 'application/json',
     'Authorization' => 'Bearer pk_prod_AHT6G9ABTXMCJMG97ZHVE5AWPZMB',
@@ -28,3 +33,4 @@ echo "<script>
     </script>";
 
 //header("Location: /html/index.html");
+?>
