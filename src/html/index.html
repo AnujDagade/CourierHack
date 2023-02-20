@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,25 +15,53 @@
             width: 100%;
             height: 100%;
         }
+        .flex-container{
+            width:100%;
+            height: 100%;
+        }
+        section{
+            width: 600px;
+            background-color: #6e97d1;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 5px 5px;
+            align-self: center;
+        
+        }
     </style>
 </head>
 
 <body>
 
 
-    <!-- <nav>
-        <div class="navbar">
-            <a href="/html/index.html">HOME</a>
-            <a href="/html/register.html">Register</a>
-            <a href="/php/catolog.php">Find your Partner</a>
-        </div>
-    </nav> -->
+
     <ul>
         <li><a class="active" href="/html/index.html">Home</a></li>
         <li><a href="/html/register.html">Register</a></li>
         <li><a href="/php/catolog.php">Find your Partner</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    <h1>This is home page</h1>
+        
+    </ul>
+
+    <div class="flex-container">
+        <section>
+			<h2>Welcome to Find a Programmer Partner</h2>
+			<p>Find a Programmer Partner is a platform where programmers can find like-minded individuals to work on projects with. Whether you're looking for a partner for your next big project or just want to collaborate on a small project, we've got you covered.</p>
+			<p>Our platform is easy to use and free to sign up. Simply create a profile and start searching for your perfect programming partner today!</p>
+		</section>
+
+        <section>
+			<h2>How it Works</h2>
+			
+				<p>Register so other people can find you.</p>
+				<p>Search for Partners: Go to Find you partner Menu link to find partners based on skills, interests, and location.</p>
+				<p>Connect and Collaborate: Reach out to potential partners and start collaborating on projects.</p>
+			
+		</section>
+    </div>
+
+
 </body>
+
 </html>
