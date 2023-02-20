@@ -2,16 +2,3 @@
 last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
 last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
 last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-gotyou,rx@df.com,sf,sf,sf
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-gotyou,rx@df.com,sf,sf,sf
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-25last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-gotyou,rx@df.com,sf,sf,sf
-Anuj,dagadeanuj@gmail.com,Belsar,NLP model development,AI Python

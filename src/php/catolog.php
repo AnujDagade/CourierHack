@@ -103,7 +103,7 @@ function genrateCard($string_array)
     
     <form action="" method="get">
 
-        <input type="submit" value="Next">
+        <input type="submit" class="next" value="Next">
     </form>
 </div>
 

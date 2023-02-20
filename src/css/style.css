@@ -41,20 +41,38 @@ span{
 
 }
 .btn{
-    background-color: #00ddff;
+    /* background-color: #00ddff; */
+    background-color: #2874df;
     outline-color: aqua;
     cursor: pointer;
     border: none;
     border-radius: 5px;
     width: 100%;
-
+    color: white;
     font-weight: bold;
 }
 
 .nav-index{
-    width: 100%;
+    width: 40%;
     height: 30px;
-    background-color: #00ddff;
+    /* background-color: #00ddff; */
+    background-color: #0056d2;
+    margin-top: 20px;
     margin-bottom: 25px;
     text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.next{
+    background-color: transparent;
+    outline-color: aqua;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width:90px;
+    margin-bottom: 20px;
 }
