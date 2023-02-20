@@ -25,12 +25,11 @@ $response = $client->request('POST', 'https://api.courier.com/send', [
   ],
 ]);
 
-echo $response->getBody();
+
 
 echo "<script> 
         alert('Request send succesful');
         window.location.href ='/html/index.html';
     </script>";
 
-//header("Location: /html/index.html");
 ?>

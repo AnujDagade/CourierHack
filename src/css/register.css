@@ -9,6 +9,7 @@ body{
 .flex-container{
     display: flex;
     justify-content: center;
+    
 }
 
 .title{
@@ -19,6 +20,7 @@ body{
 input{
     display: block;
     margin-bottom: 12px;
+    
     /* background-color: rgb(220, 223, 228); */
     
 }
@@ -26,15 +28,17 @@ input{
 textarea{
     width:100%;
     margin-bottom: 12px;
+    
 }
 
 label{
     margin-bottom: 10px;
+    
 }
 
 .btn{
-    background-color: #2874df;
-    outline-color: aqua;
+    background-color: #2369ca;
+    outline-color: rgb(17, 20, 20);
     cursor: pointer;
     border: none;
     border-radius: 5px;
@@ -42,6 +46,7 @@ label{
     height:2em;
     font-weight: bold;
     color: white;
+    
 }
 
 

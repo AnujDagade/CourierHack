@@ -85,7 +85,7 @@ function genrateCard($string_array)
         
         <div class='card'>
         <form method='post' action='sendInfo.php'>
-            <img class='profile' src='My.JPG' alt='Profile'>
+            <img class='profile' src='user.png' alt='Profile'>
             <span>Name:$string_array[0] </span>
             <span>Location:$string_array[2] </span>
             <span>Technologies:$string_array[4]</span>
