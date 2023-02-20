@@ -1,3 +1,11 @@
+body{
+    background: #76B1E2;
+    background: -webkit-linear-gradient(top left, #76B1E2, #285093);
+    background: -moz-linear-gradient(top left, #76B1E2, #285093);
+    background: linear-gradient(to bottom right, #76B1E2, #285093);
+    
+}
+
 .flex-container{
     display: flex;
     justify-content: center;
